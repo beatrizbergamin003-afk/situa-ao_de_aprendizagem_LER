@@ -1,17 +1,17 @@
-# QuickParking - Sistema de Gestão de Estacionamento
+# 🚗 QuickParking - Sistema de Gestão de Estacionamento
 
 Sistema desenvolvido em Python para gerenciar o estacionamento de uma loja de conveniência localizada em um posto de combustível, realizando o controle de vagas, entrada e saída de veículos, cálculo automático de cobranças e geração de relatórios.
 
 ---
 
-## Integrantes
+## 👥 Integrantes
 
 - Beatriz Neves Bergamin
 - João Wictor
 
 ---
 
-## 1. Introdução
+## 📖 1. Introdução
 
 ### 1.1 Objetivo
 
@@ -32,7 +32,7 @@ O sistema será responsável por:
 
 ---
 
-## 2. Visão Geral do Sistema
+## 🖥️ 2. Visão Geral do Sistema
 
 O QuickParking será desenvolvido em Python para auxiliar o controle operacional de um estacionamento de pequeno porte.
 
@@ -66,7 +66,7 @@ Responsável por:
 
 ---
 
-## 3. Levantamento de Requisitos
+## 📋 3. Levantamento de Requisitos
 
 ### 3.1 Design Thinking
 
@@ -110,7 +110,7 @@ O estacionamento não possui um sistema automatizado para controlar a movimenta�
 
 ---
 
-## 4. Histórias de Usuário
+## 👤 4. Histórias de Usuário
 
 | ID | História |
 |----|----------|
@@ -124,7 +124,7 @@ O estacionamento não possui um sistema automatizado para controlar a movimenta�
 
 ---
 
-## 5. Requisitos Funcionais
+## ⚙️ 5. Requisitos Funcionais
 
 | ID | Requisito | Descrição |
 |----|-----------|-----------|
@@ -142,7 +142,7 @@ O estacionamento não possui um sistema automatizado para controlar a movimenta�
 
 ---
 
-## 6. Regras de Negócio
+## 📌 6. Regras de Negócio
 
 | Código | Regra |
 |--------|-------|
@@ -158,7 +158,7 @@ O estacionamento não possui um sistema automatizado para controlar a movimenta�
 
 ---
 
-## 7. Requisitos Não Funcionais
+## 🔒 7. Requisitos Não Funcionais
 
 | ID | Requisito | Descrição |
 |----|-----------|-----------|
@@ -170,7 +170,7 @@ O estacionamento não possui um sistema automatizado para controlar a movimenta�
 
 ---
 
-## 8. Prototipação
+## 🎨 8. Prototipação
 
 A prototipação do sistema foi desenvolvida utilizando o Figma, com o objetivo de representar visualmente as funcionalidades do QuickParking antes da implementação.
 
@@ -182,7 +182,7 @@ Por meio do protótipo, foi possível planejar a disposição das informações,
 
 ---
 
-## 9. Planejamento Ágil
+## 🚀 9. Planejamento Ágil
 
 ### Kanban
 
@@ -223,7 +223,7 @@ O gerenciamento das atividades foi realizado por meio do GitHub Projects utiliza
 
 ---
 
-## 10. Critérios de Aceitação
+## ✅ 10. Critérios de Aceitação
 
 O sistema será considerado aprovado quando:
 
@@ -241,7 +241,7 @@ O sistema será considerado aprovado quando:
 
 ---
 
-## 11. Considerações Finais
+## 🏁 11. Considerações Finais
 
 O QuickParking foi projetado para atender às necessidades de gerenciamento de um estacionamento de loja de conveniência, proporcionando maior controle operacional, organização das vagas e precisão na cobrança dos clientes.
 
