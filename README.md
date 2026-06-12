@@ -86,6 +86,8 @@ Necessidades levantadas junto ao cliente:
 
 Funcionalidades identificadas:
 
+Funcionalidades identificadas:
+
 - Cadastro de veículos;
 - Controle de lotação;
 - Controle de vagas;
@@ -94,7 +96,7 @@ Funcionalidades identificadas:
 - Sistema de multas;
 - Consulta de veículos estacionados;
 - Controle de horários.
-
+  
 ### Definição do Problema
 
 O estacionamento não possui um sistema automatizado para controlar a movimentação dos veículos, dificultando o gerenciamento das vagas e o cálculo das cobranças.
