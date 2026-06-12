@@ -86,8 +86,6 @@ Necessidades levantadas junto ao cliente:
 
 Funcionalidades identificadas:
 
-Funcionalidades identificadas:
-
 - Cadastro de veículos;
 - Controle de lotação;
 - Controle de vagas;
@@ -96,7 +94,7 @@ Funcionalidades identificadas:
 - Sistema de multas;
 - Consulta de veículos estacionados;
 - Controle de horários.
-  
+
 ### Definição do Problema
 
 O estacionamento não possui um sistema automatizado para controlar a movimentação dos veículos, dificultando o gerenciamento das vagas e o cálculo das cobranças.
@@ -285,8 +283,7 @@ Por meio do protótipo, foi possível planejar a disposição das informações,
 
 ## Protótipo do Sistema
 
-<img width="1380" height="550" alt="Captura de tela 2026-06-12 134649" src="https://github.com/user-attachments/assets/22948817-3422-4b17-aa3c-e14a13ec30e3" />
-
+<img width="1380" height="550" alt="Captura de tela 2026-06-12 134649" src="https://github.com/user-attachments/assets/42f3d070-66cf-4e6e-9c36-7b32b2b7e484" />
 
 ---
 
