@@ -1,19 +1,17 @@
-# Projeto: QuickParking – Sistema de Gestão de Estacionamento
+# 🚗 QuickParking – Sistema de Gestão de Estacionamento
 
-# ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE (ERS)
-
-## Integrantes
+## 👥 Integrantes
 
 * Beatriz Neves Bergamin
 * João Wictor
 
 ---
 
-# 1. INTRODUÇÃO
+# 📖 1. Introdução
 
 ## 1.1 Objetivo
 
-Este documento apresenta a Especificação de Requisitos de Software (ERS) do sistema QuickParking, desenvolvido para gerenciar o estacionamento de uma loja de conveniência localizada em um posto de combustível.
+Este documento apresenta a **Especificação de Requisitos de Software (ERS)** do sistema **QuickParking**, desenvolvido para gerenciar o estacionamento de uma loja de conveniência localizada em um posto de combustível.
 
 O sistema tem como objetivo controlar a entrada e saída de veículos, monitorar vagas disponíveis, calcular automaticamente valores de permanência, aplicar regras de negócio e gerar relatórios administrativos de faturamento.
 
@@ -46,11 +44,11 @@ O QuickParking será responsável por:
 
 ---
 
-# 2. VISÃO GERAL DO SISTEMA
+# 🖥️ 2. Visão Geral do Sistema
 
-O QuickParking será um sistema desenvolvido em Python para auxiliar o controle operacional de um estacionamento de pequeno porte.
+O QuickParking será um sistema desenvolvido em **Python** para auxiliar o controle operacional de um estacionamento de pequeno porte.
 
-O estacionamento possui:
+### Capacidade do Estacionamento
 
 * 20 vagas no total;
 * 15 vagas para carros, picapes e caminhões;
@@ -82,7 +80,7 @@ Responsável por:
 
 ---
 
-# 3. LEVANTAMENTO DE REQUISITOS
+# 📋 3. Levantamento de Requisitos
 
 ## 3.1 Design Thinking
 
@@ -102,7 +100,7 @@ Durante o levantamento de requisitos, o cliente informou as seguintes necessidad
 
 ### Brainstorming
 
-Foram levantadas as seguintes funcionalidades:
+Funcionalidades levantadas:
 
 * Cadastro de veículos;
 * Controle de lotação;
@@ -125,7 +123,7 @@ O estacionamento não possui um sistema automatizado para controlar a movimenta�
 
 ### Nome
 
-QuickParking
+**QuickParking**
 
 ### Cliente
 
@@ -141,7 +139,7 @@ Desenvolvimento de um sistema em Python capaz de gerenciar todo o fluxo do estac
 
 ---
 
-# 4. HISTÓRIAS DE USUÁRIO
+# 👤 4. Histórias de Usuário
 
 ### US01
 
@@ -173,7 +171,7 @@ Como operador, eu quero identificar veículos estacionados irregularmente para a
 
 ---
 
-# 5. REQUISITOS FUNCIONAIS
+# ⚙️ 5. Requisitos Funcionais
 
 ## RF01 – Registrar Entrada
 
@@ -270,135 +268,88 @@ O sistema deverá gerar relatórios contendo:
 
 ---
 
-# 6. REGRAS DE NEGÓCIO
+# 📌 6. Regras de Negócio
 
-## RN01
-
-Veículos com permanência de até 15 minutos não pagarão estacionamento.
-
----
-
-## RN02
-
-A primeira hora terá custo de R$ 10,00.
-
----
-
-## RN03
-
-Cada hora adicional terá custo de R$ 5,00.
+| Código | Regra                                                                        |
+| ------ | ---------------------------------------------------------------------------- |
+| RN01   | Veículos com permanência de até 15 minutos não pagarão estacionamento.       |
+| RN02   | A primeira hora terá custo de R$ 10,00.                                      |
+| RN03   | Cada hora adicional terá custo de R$ 5,00.                                   |
+| RN04   | A capacidade máxima do estacionamento é de 20 vagas.                         |
+| RN05   | Motocicletas deverão ocupar exclusivamente as vagas destinadas a motos.      |
+| RN06   | Veículos acima de 12 metros não poderão entrar.                              |
+| RN07   | Todas as vagas possuem largura padrão de 2 metros.                           |
+| RN08   | O estacionamento funcionará apenas das 05:00 às 22:00.                       |
+| RN09   | Veículos estacionados em áreas proibidas estarão sujeitos à multa adicional. |
 
 ---
 
-## RN04
-
-A capacidade máxima do estacionamento é de 20 vagas.
-
----
-
-## RN05
-
-Motocicletas deverão ocupar exclusivamente as vagas destinadas a motos.
-
----
-
-## RN06
-
-Veículos acima de 12 metros não poderão entrar.
-
----
-
-## RN07
-
-Todas as vagas possuem largura padrão de 2 metros.
-
----
-
-## RN08
-
-O estacionamento funcionará apenas das 05:00 às 22:00.
-
----
-
-## RN09
-
-Veículos estacionados em áreas proibidas estarão sujeitos à multa adicional.
-
----
-
-# 7. REQUISITOS NÃO FUNCIONAIS
+# 🔒 7. Requisitos Não Funcionais
 
 ## RNF01 – Desempenho
 
 O sistema deverá responder às operações em até 2 segundos.
 
----
-
-## RNF02 – Segurança
+### RNF02 – Segurança
 
 O acesso administrativo deverá exigir autenticação por usuário e senha.
 
----
-
-## RNF03 – Usabilidade
+### RNF03 – Usabilidade
 
 O sistema deverá possuir interface simples e intuitiva.
 
----
-
-## RNF04 – Confiabilidade
+### RNF04 – Confiabilidade
 
 Os dados cadastrados deverão permanecer armazenados sem perda de informações.
 
+### RNF05 – Manutenibilidade
+
+O código deverá ser organizado utilizando:
+
+* Funções;
+* Listas;
+* Dicionários;
+* Tratamento de exceções.
+
 ---
 
-## RNF05 – Manutenibilidade
-
-O código deverá ser organizado utilizando funções, listas, dicionários e tratamento de exceções.
-
----
-
-# 8. PROTOTIPAÇÃO DO SISTEMA
+# 🎨 8. Prototipação do Sistema
 
 ## Ferramenta Utilizada
 
-Figma
+**Figma**
 
----
-
-## Objetivo
+### Objetivo
 
 Representar visualmente o funcionamento do sistema antes da implementação.
 
----
+### Telas Desenvolvidas
 
-## Telas Desenvolvidas
-
-### Tela de Entrada
+#### Tela de Entrada
 
 Cadastro da placa, tipo e comprimento do veículo.
 
-### Tela de Validação
+#### Tela de Validação
 
 Bloqueio de veículos acima de 12 metros.
 
-### Tela de Registro
+#### Tela de Registro
 
 Associação do veículo a uma vaga.
 
-### Tela de Saída
+#### Tela de Saída
 
 Localização do veículo e cálculo da permanência.
 
-### Tela de Pagamento
+#### Tela de Pagamento
 
 Exibição do valor total e confirmação da cobrança.
 
-### Tela de Login
+#### Tela de Login
 
 Acesso administrativo.
 
-### Tela Administrativa
+#### Tela Administrativa
 
 Visualização de faturamento e movimentações.
 
@@ -406,25 +357,36 @@ Visualização de faturamento e movimentações.
 
 ## Fluxo do Sistema
 
-1. Cadastro do veículo.
-2. Validação do comprimento.
-3. Registro da entrada.
-4. Ocupação da vaga.
-5. Registro da saída.
-6. Cálculo automático.
-7. Pagamento.
-8. Liberação da vaga.
-9. Atualização do faturamento.
+```text
+Cadastro do veículo
+        ↓
+Validação do comprimento
+        ↓
+Registro da entrada
+        ↓
+Ocupação da vaga
+        ↓
+Registro da saída
+        ↓
+Cálculo automático
+        ↓
+Pagamento
+        ↓
+Liberação da vaga
+        ↓
+Atualização do faturamento
+```
 
 ---
 
 ## Figura 1 – Protótipo do Sistema
 
-Inserir nesta seção a imagem do protótipo desenvolvido no Figma.
+<img width="1380" height="550" alt="Captura de tela 2026-06-12 134649" src="https://github.com/user-attachments/assets/69bf08f1-6ca9-477b-9d6d-71975c8e7a88" />
+
 
 ---
 
-# 9. PLANEJAMENTO ÁGIL
+# 🚀 9. Planejamento Ágil
 
 ## Kanban
 
@@ -477,7 +439,7 @@ Validação dos requisitos com o professor.
 
 ---
 
-# 10. CRITÉRIOS DE ACEITAÇÃO
+# ✅ 10. Critérios de Aceitação
 
 O sistema será considerado aprovado quando:
 
@@ -495,10 +457,8 @@ O sistema será considerado aprovado quando:
 
 ---
 
-# 11. CONSIDERAÇÕES FINAIS
+# 🏁 11. Considerações Finais
 
-O sistema QuickParking foi projetado para atender às necessidades de gerenciamento de um estacionamento de loja de conveniência, proporcionando maior controle operacional, organização das vagas e precisão na cobrança dos clientes.
+O sistema **QuickParking** foi projetado para atender às necessidades de gerenciamento de um estacionamento de loja de conveniência, proporcionando maior controle operacional, organização das vagas e precisão na cobrança dos clientes.
 
-A utilização de Design Thinking, prototipação, Kanban e Scrum permitiu estruturar o desenvolvimento de forma organizada, garantindo que os requisitos do cliente fossem atendidos de maneira eficiente.
 
-Ao final do projeto, espera-se que o sistema seja capaz de automatizar o controle do estacionamento, reduzir erros operacionais e fornecer informações confiáveis para a administração do estabelecimento.
